@@ -19,6 +19,7 @@ if(isSet($_REQUEST["grupilisamine"] ))
 }
 
 
+
 if(isSet($_REQUEST["kaubalisamine"])){
     if (!empty($_REQUEST["nimetus"]) && $_REQUEST["hind"] !== null)
     {
