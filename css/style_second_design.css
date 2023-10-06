@@ -1,0 +1,137 @@
+html body {
+    height:100%;
+}
+
+body {
+    background-image:url(../pictures/background.jpg);
+    color:#2F4F4F;
+    font-family:'Comic Sans MS', serif;
+    padding-left:5%;
+    padding-right:5%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+header {
+    border-bottom:solid 3pt #000;
+    width:100%;
+    background-color:rgba(254,252,251,0.75);
+    border-top:solid 1pt #000;
+    border-left:solid 1pt #000;
+    border-right:solid 1pt #000;
+    border-top-left-radius:60px;
+    border-top-right-radius:60px;
+    padding:2%;
+}
+
+main {
+    margin-top:1%;
+    width:100%;
+    background-color:rgba(254,252,251,0.8);
+    border-left:solid 1pt #000;
+    border-right:solid 1pt #000;
+    padding:3% 2%;
+}
+
+.display_align {
+    display:flex;
+}
+
+header h1 {
+    letter-spacing:.2cm;
+    font-variant-caps:all-petite-caps;
+    font-size:xx-large;
+    text-align:center;
+}
+
+header h2 {
+    letter-spacing:.1cm;
+    font-variant-caps:all-petite-caps;
+    font-size:large;
+    text-align:center;
+}
+
+nav {
+    margin-top:1%;
+    width:100%;
+    background-color:rgba(254,252,251,0.75);
+    border-left:solid 1pt #000;
+    border-right:solid 1pt #000;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    margin-right: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+#part1,#part2,#part3 {
+    margin-left:2%;
+    flex-basis:33%;
+    width:30%;
+    border:solid 2pt #000;
+    height:200px;
+    padding:2%;
+}
+
+footer {
+    width:100%;
+    margin-top:1%;
+    background-color:rgba(254,252,251,0.55);
+    border-bottom:solid 1pt #000000;
+    border-left:solid 1pt #000000;
+    border-right:solid 1pt #000000;
+    border-bottom-left-radius:60px;
+    border-bottom-right-radius:60px;
+    padding:3%;
+}
+
+.dvd{
+    
+}
+
+/*TABLESTYLE*/
+table{
+    text-align: center;
+
+}
+.bg-ffcc00 {
+    background-color: #ffcc00;
+}
+
+/*LippStyle*/
+
+#Rootsi{
+    width: 330px;
+    height: 210px;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+#Rootsi tr:nth-child(2){background-color: gold; height: 25%}
+
+#Rootsi tr:nth-child(1) td:nth-child(1),
+#Rootsi tr:nth-child(3) td:nth-child(1){
+    background-color: blue;
+    width: 20%;
+}
+#Rootsi tr:nth-child(1) td:nth-child(2),
+#Rootsi tr:nth-child(3) td:nth-child(2){
+    background-color: gold;
+    width: 18%;
+}
+#Rootsi tr:nth-child(1) td:nth-child(3),
+#Rootsi tr:nth-child(3) td:nth-child(3){
+    background-color: blue;
+}

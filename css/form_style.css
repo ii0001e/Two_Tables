@@ -1,0 +1,22 @@
+form{
+    width: 100%;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+fieldset{
+    width: 50%;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+.strong_text{
+    color:black;
+    font-size: large;
+    font-weight: bold;
+    font-family: bold;
+    padding-left: 3%;
+}
+.my-list {
+    list-style-type: none;
+}
