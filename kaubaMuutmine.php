@@ -90,7 +90,7 @@ $kaubad=kysiKaupadeAndmed($sorttulp, $otsisona);
             Otsi: <input type="text" name="otsisona" />
             <button onClick="window.location.reload();" class="btn btn-info">Reload</button>
         </div>
-        </br>
+        <br>
 
 
         <table class="table table-striped table-bordered">
